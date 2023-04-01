@@ -1,23 +1,15 @@
 import logo from './logo.svg';
+import React from 'react';
+import BurgerMenu from './components/HamburgerMenu.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BurgerMenu />
+      <h1>Welcome to ZenChat</h1>
+      <p>Your mental health chatbot and therapist.</p>
+      {/* Rest of your app content goes here */}
     </div>
   );
 }
