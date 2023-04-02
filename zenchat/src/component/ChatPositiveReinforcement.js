@@ -6,7 +6,7 @@ import React from 'react';
 import './Chat.css'
 import { Carousel } from 'flowbite-react';
 
-function Chat() {
+function ChatPositiveReinforcement() {
     const containerStyle = {
         backgroundColor: '#8fc4ff',
         height: '120vh'
@@ -31,4 +31,4 @@ function Chat() {
       );
     }
 
-export default Chat;
+export default ChatPositiveReinforcement;
