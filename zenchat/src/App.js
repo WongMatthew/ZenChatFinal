@@ -9,6 +9,9 @@ import End from './component/End';
 import Resources from './component/Resources';
 import Chat from './component/Chat';
 import Test from './component/Test';
+import ChatDecatastrophizing from './component/ChatDecatastrophizing';
+import ChatUplifting from './component/ChatUplifting';
+import ChatPositiveReinforcement from './component/ChatPositiveReinforcement';
 
 function App() {
 
@@ -23,6 +26,9 @@ function App() {
           <Route path="End" element={<End />} />
           <Route path="Resources" element={<Resources />} />
           <Route path="Test" element={<Test />} />
+          <Route path="ChatDecatastrophizing" element={<ChatDecatastrophizing />} />
+          <Route path="ChatUplifting" element={<ChatUplifting />} />
+          <Route path="ChatPositiveReinforcement" element={<ChatPositiveReinforcement />} />
         </Routes>
     </BrowserRouter>
     </div>
