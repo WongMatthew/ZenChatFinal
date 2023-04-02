@@ -8,6 +8,7 @@ import Disclaimer from './component/Disclaimer';
 import End from './component/End';
 import Resources from './component/Resources';
 import Chat from './component/Chat';
+import Test from './component/Test';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="Disclaimer" element={<Disclaimer />} />
           <Route path="End" element={<End />} />
           <Route path="Resources" element={<Resources />} />
+          <Route path="Test" element={<Test />} />
         </Routes>
     </BrowserRouter>
     </div>

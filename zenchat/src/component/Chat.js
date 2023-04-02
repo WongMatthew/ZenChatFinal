@@ -1,16 +1,19 @@
 import backgroundWhiteBarImage from '../image/BackgroundWhiteBar.png';
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
+import BackgroundLightBlueOffWhite from '../image/BackgroundLightBlueOffWhite.png';
+import ChatText from '../image/ChatText.png';
 import React from 'react';
 import './Chat.css'
+import { Carousel } from 'flowbite-react';
 
 function Chat() {
     const containerStyle = {
-        backgroundColor: '#3A86FF',
+        backgroundColor: '#8fc4ff',
         height: '120vh'
       };
     
     const bodyStyle = {
-        backgroundImage: `url(${backgroundWhiteBarImage})`,
+        backgroundImage: `url(${BackgroundLightBlueOffWhite})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
@@ -20,7 +23,9 @@ function Chat() {
       return (
         <div style={containerStyle}>
             <div style={bodyStyle}>
+
                 hi
+
             </div>
         </div>
       );
