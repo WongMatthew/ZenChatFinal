@@ -1,0 +1,95 @@
+.top {
+    display: block;
+    height: 40px;
+    line-height: 3;
+
+    text-align: center;
+
+
+    font: size 26px;
+    font-family: poppins;
+    font-weight: bolder;
+}
+
+.msg {
+    height: 78%;
+    background-color: white;
+    overflow: auto;
+
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+}
+
+.cs-message__content {
+    background-color: #3A86FF;
+    color: white;
+
+}
+
+.msg-content {
+    /* Rectangle 9 */
+    /* color: #FFFFFF; */
+    /* size: 10px; */
+    /* width: auto; */
+    position: absolute;
+    width: 277px;
+    height: 60px;
+    right: 120px;
+    top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+
+
+    background: #3A86FF;
+    border-radius: 20px;
+}
+
+.cs-message msg-content {
+    size: auto;
+}
+
+/* .input-box {
+    height: ; 
+    background:purple; 
+    
+
+    
+} */
+
+.input-container{
+    /* width: 200px; */
+    height: 1500px;
+    font-family: 'Poppins';
+    overflow: hidden;
+    /* background-color: #ccc; */
+    /* position: relative; */
+    /* text-align: center; */
+    /* line-height: 200px; */
+    
+
+    
+}
+
+.cs-message-input__content-editor-wrapper{
+    color: white;
+}
+
+.input{
+    
+    top:4%;
+    
+    border-radius: 10px;
+    /* color: black; */
+    /* background-color: black;  */
+    
+    
+}
+
+/* <div class="scrollbar-container cs-message-input__content-editor-container ps"><div class="cs-message-input__content-editor" contenteditable="true" data-placeholder="">gfdsdfghjklkjhbgvfcdsssssssssssssssssssssssssssssssssssssss</div><div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div> */

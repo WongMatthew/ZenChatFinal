@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
 import backgroundImage from '../image/background.png';
 import React from 'react';
-import './Chat.css'
+import './style/Chat.css'
+
 import logo from '../image/ZenChatLogo.png';
 import { Carousel } from 'flowbite-react';
 import landingImage1 from '../image/LandingImage1.png';

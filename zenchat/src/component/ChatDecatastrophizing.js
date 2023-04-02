@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-rout
 import BackgroundLightBlueOffWhite from '../image/BackgroundLightBlueOffWhite.png';
 import ChatText from '../image/ChatText.png';
 import React from 'react';
-import './Chat.css'
+import './style/Chat.css'
 import { Carousel } from 'flowbite-react';
 
 function ChatDecatastrophizing() {

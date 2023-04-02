@@ -2,7 +2,9 @@ import backgroundImage from '../image/background.png';
 import logo from '../image/ZenChatLogo.png';
 import { BrowserRouter as Router, Switch, Route, Link, Routes, BrowserRouter } from 'react-router-dom';
 import React from 'react';
-import {Card} from 'flowbite-react';
+import { Card } from 'flowbite-react';
+
+
 
 function Help() {
     const style = {
