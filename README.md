@@ -42,6 +42,10 @@ Tech Stack: ReactJS, Python/Flask, Figma
 
 - Figma: We used Figma for our mockups and our user testing! Figma was a huge part of our development cycle because it gave us an idea of what designs to implement and the user flow that was required.
 
+You can find the Presentation [HERE](https://www.canva.com/design/DAFYWuOUycc/XxQlgWJga1fBkd_9FRH6ew/view?utm_content=DAFYWuOUycc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+You can find the Figma [HERE](https://www.figma.com/file/qSEZxzkzjBhUED7khp0E2E/ProduHacks-2023?node-id=32-2272&t=vcJdJChzqWCSowIl-0)
+
 ## 😣 CHALLENGES WE RAN INTO😣
 
 - It was Swapnil and Jasper's **SECOND** hackathon so there was a learning curve to a lot of stuff 
