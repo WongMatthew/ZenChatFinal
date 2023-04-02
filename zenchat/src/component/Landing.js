@@ -19,9 +19,7 @@ function Landing() {
   return (
     <div style={style}>
       <div className="hero container max-w-screen-lg mx-auto pb-10 flex flex-col items-center justify-center">
-        <img src={logo} alt="ZenChat Logo" className="mb-12" style={{ marginTop: "158px" }} />
-
-        
+        <img src={logo} alt="ZenChat Logo" className="mb-12" style={{ marginTop: "158px" }} />       
 
         {/* <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 bg-red-500">
         <Carousel>
