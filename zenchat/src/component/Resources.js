@@ -28,7 +28,6 @@ function Resources() {
         flexDirection: 'column',
         alignItems: 'center',
         maxWidth: '330px',
-        marginTop: '40px',
         textAlign: 'center',
         justifyContent: 'center',
         margin: 'auto'
@@ -65,7 +64,7 @@ function Resources() {
                 </div>
 
                 <div style={tailoredResourcesStyle}>
-                    <h1 style={{ fontSize: '28px', fontWeight: 'bold', marginBottom: '10px' }}>Your Tailored Resources</h1>
+                    <h1 style={{ fontSize: '28px', fontWeight: 'bold', marginBottom: '10px', marginTop: '40px'}}>Your Tailored Resources</h1>
                     <p style={{ fontSize: '16px' }}>These are the resources tailored to relieve you of your burdens and uplift your state of mind.</p>
                 </div>
 
