@@ -13,7 +13,7 @@ import React from 'react';
 function Resources() {
     const containerStyle = {
         backgroundColor: '#3A86FF',
-        height: '120vh'
+        height: '170vh'
       };
     
     const bodyStyle = {
