@@ -5,6 +5,7 @@ import './index.css';
 import Landing from './component/Landing';
 import Help from './component//Help';
 import Disclaimer from './component/Disclaimer';
+import End from './component/End';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Landing />} />
           <Route path="Help" element={<Help />} />
           <Route path="Disclaimer" element={<Disclaimer />} />
+          <Route path="End" element={<End />} />
         </Routes>
     </BrowserRouter>
     </div>
