@@ -2,8 +2,11 @@ import backgroundWhiteBarImage from '../image/BackgroundWhiteBar.png';
 import RiseShineButton from '../image/RiseShineButton.png';
 import WindDownButton from '../image/WindDownButton.png';
 import BurMentalHealth from '../image/BurMentalHealth.png';
-import VanMentalHeatlh from '../image/VanMentalHealth.png';
+import VanMentalHealth from '../image/VanMentalHealth.png';
 import AbbMentalHealth from '../image/AbbMentalHealth.png';
+import KidsHelp from '../image/KidsHelp.png';
+import TalkSuicide from '../image/TalkSuicide.png';
+import TransLifeline from '../image/TransLifeline.png';
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
 import React from 'react';
 
@@ -103,7 +106,7 @@ function Resources() {
 
                 <button style={{ ...RiseShineButtonStyle }}>
                     <a href="https://www.vch.ca/en/health-topics/community-based-mental-health-substance-use-services">
-                        <img src={VanMentalHeatlh} alt="VanMental" />
+                        <img src={VanMentalHealth} alt="VanMental" />
                     </a>
                 </button>
 
@@ -116,6 +119,35 @@ function Resources() {
                 <button style={{ ...windDownButtonStyle }}>
                     <a href="https://www.fraserhealth.ca/Service-Directory/Service-At-Location/C/D/mental-health-centre---abbotsford">
                         <img src={AbbMentalHealth} alt="AbbMental" />
+                    </a>
+                </button>
+
+                <div style={{ display: 'flex', alignItems: 'center', marginTop: '-50px', paddingLeft: '50px', paddingRight: '20px' }}>
+                    <h2 style={{color: 'white', fontWeight: 'bold', fontSize: '20px', marginRight: '10px' }}>Crisis Hotlines</h2>
+                    <Link to="">
+                        <button style={{color: 'white', fontSize: '16px', fontWeight: 'bold', padding: '10px', borderRadius: '4px' }}>
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </Link>
+                </div>
+
+                <button style={{ ...RiseShineButtonStyle }}>
+                    <a href="https://talksuicide.ca/">
+                        <img src={TalkSuicide} alt="TalkSuicide" />
+                    </a>
+                </button>
+
+                    <button style={{ ...windDownButtonStyle }}>
+                    <a href="https://www.translifeline.org/">
+                        <img src={TransLifeline} alt="TransLifeline" />
+                    </a>
+                </button>
+
+                <button style={{ ...windDownButtonStyle }}>
+                    <a href="https://kidshelpphone.ca/">
+                        <img src={KidsHelp} alt="KidsHelp" />
                     </a>
                 </button>
 
