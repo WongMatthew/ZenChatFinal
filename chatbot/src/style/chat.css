@@ -1,0 +1,11 @@
+.outer{
+    /* height: %; */
+    /* width: 100%; */
+    
+    background-color: gray;
+    max-height: 100vh; 
+    height: 100vh;
+    
+
+    
+}
