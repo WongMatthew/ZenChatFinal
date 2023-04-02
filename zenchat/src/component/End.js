@@ -27,6 +27,16 @@ function End() {
                     </button>
                 </Link>
             </div>
+
+            <div className="max-w-screen-lg mx-auto pt-20 px-8 flex flex-col items-center justify-center text-center" style={{ left: '40%', top: '300px', marginTop: '300px' }}>
+                <div className="text-xl font-bold mb-3">Have feedback?</div>
+                <Link to="">
+                    <button className="bg-blue-500 text-white py-3 px-6 rounded-full shadow-lg flex items-center text-xl" style={{ minWidth: '150px', backgroundColor: "#3A86FF", marginTop: '10px'}}>
+                        Submit Feedback
+                    </button>
+                </Link>
+            </div>
+
             <div className="fixed bottom-24 left-1/2 transform -translate-x-1/2 " style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '150px' }}>
                 <Link to="/disclaimer">
                     <button className="bg-white text-black py-3 px-6 rounded-full shadow-lg flex items-center text-xl">
