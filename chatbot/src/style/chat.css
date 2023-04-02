@@ -1,0 +1,32 @@
+.outer{
+    /* height: %; */
+    /* width: 100%; */
+    
+    background-color: gray;
+    max-height: 100vh; 
+    height: 100vh;
+
+    /* I’ve been struggling with something... */
+
+position: absolute;
+width: 277px;
+height: 90px;
+left: 109px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 35px;
+/* or 233% */
+
+color: #FFFFFF;
+
+
+    
+
+    
+}
+
+
