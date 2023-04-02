@@ -6,6 +6,7 @@ import Landing from './component/Landing';
 import Help from './component//Help';
 import Disclaimer from './component/Disclaimer';
 import End from './component/End';
+import Resources from './component/Resources';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="Help" element={<Help />} />
           <Route path="Disclaimer" element={<Disclaimer />} />
           <Route path="End" element={<End />} />
+          <Route path="Resources" element={<Resources />} />
         </Routes>
     </BrowserRouter>
     </div>
