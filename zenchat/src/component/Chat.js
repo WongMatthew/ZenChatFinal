@@ -5,7 +5,7 @@ import "@fontsource/poppins";
 
 import { useState } from 'react';
 import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
-import { MainContainer, ChatContainer, Message, MessageInput, TypingIndicator, MessageList } from '@chatscope/chat-ui-kit-react'
+import { Message, MessageInput, TypingIndicator, MessageList } from '@chatscope/chat-ui-kit-react'
 import './style/Chat.css'
 const OPEN_API_KEY = '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'
 const systemMessage = {
