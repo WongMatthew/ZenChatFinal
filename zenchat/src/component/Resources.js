@@ -4,10 +4,8 @@ import WindDownButton from '../image/WindDownButton.png';
 import BurMentalHealth from '../image/BurMentalHealth.png';
 import VanMentalHeatlh from '../image/VanMentalHealth.png';
 import AbbMentalHealth from '../image/AbbMentalHealth.png';
-import logo from '../image/ZenChatLogo.png';
 import { BrowserRouter as Router, Switch, Route, Link, Routes } from 'react-router-dom';
 import React from 'react';
-import {Card} from 'flowbite-react';
 
 function Resources() {
     const containerStyle = {
@@ -52,7 +50,7 @@ function Resources() {
       return (
         <div style={containerStyle}>
             <div style={bodyStyle}>
-                <div style={{ height: '116px', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                <div style={{ height: '116px', backgroundColor: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '10px' }}>
                     <Link to="/end">
                         <button style={{ backgroundColor: '#3167EB', color: 'white', fontSize: '16px', fontWeight: 'bold', padding: '10px', borderRadius: '4px', marginRight: '16px' }}>
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
