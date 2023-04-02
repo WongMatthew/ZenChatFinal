@@ -45,7 +45,7 @@ function Disclaimer() {
                             Back
                             </button>
                         </Link>
-                        <Link to="/">
+                        <Link to="/Chat">
                             <button className="bg-indigo-500 text-black py-3 px-6 rounded-full shadow-lg text-xl" style={{ minWidth: '150px', backgroundColor: "#3A86FF", marginRight: "1rem" }}>
                             Begin
                             </button>

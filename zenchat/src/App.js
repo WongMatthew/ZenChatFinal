@@ -7,6 +7,7 @@ import Help from './component//Help';
 import Disclaimer from './component/Disclaimer';
 import End from './component/End';
 import Resources from './component/Resources';
+import Chat from './component/Chat';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <BrowserRouter>
         <Routes>
           <Route path="/" element={<Landing />} />
+          <Route path="Chat" element={<Chat />} />
           <Route path="Help" element={<Help />} />
           <Route path="Disclaimer" element={<Disclaimer />} />
           <Route path="End" element={<End />} />
