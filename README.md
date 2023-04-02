@@ -28,7 +28,7 @@ The app also includes a "Resources" section, which provides access to a variety 
 
 Overall, the app aims to provide users with a comprehensive platform for managing their mental health. By tracking their moods, reflecting on their thoughts and feelings, connecting with others, and accessing resources, users can work towards improving their mental health and living their best lives.
 
-##🛠️HOW WE BUILT IT🛠️
+## 🛠️HOW WE BUILT IT🛠️
 
 We conducted a market research survey to gain insights from users regarding their experiences with mental health and wellness. This feedback was crucial in helping us identify the features that would be most valuable to our users and enable us to make a positive impact in their lives. Ultimately, our goal is to provide a platform that can help prevent crises and save lives by making mental health resources and support more accessible and effective.
 
@@ -42,7 +42,7 @@ Tech Stack: ReactJS, Python/Flask, Figma
 
 - Figma: We used Figma for our mockups and our user testing! Figma was a huge part of our development cycle because it gave us an idea of what designs to implement and the user flow that was required.
 
-##😣 CHALLENGES WE RAN INTO😣
+## 😣 CHALLENGES WE RAN INTO😣
 
 - It was Swapnil and Jasper's **SECOND** hackathon so there was a learning curve to a lot of stuff 
 especially since we were aiming to build an entire functioning app
@@ -74,4 +74,4 @@ ZenChat has a lot to do before it can be deployed as a genuine app.
 
 Matthew W is a 3rd year computer science student at Simon Fraser University, currently looking for a summer 2023 internship. He has formal training in data science. He's interested in learning new and honing his current frontend skills/technologies. Moreover, he has a deep understanding of machine learning, AI and neural networks. He's always willing to have a chat about games, school, data science and more! You can reach out to him at his [LinkedIn](https://www.linkedin.com/in/matthew-wong-240837124/), visit his [website](https://wongmatt.dev) or take a look at what he's [working on](https://github.com/WongMatthew)
 
-###🥳🎉THANK YOU BIZTECH FOR HOSTING PRODUHACKS🥳🎉
+### 🥳🎉THANK YOU BIZTECH FOR HOSTING PRODUHACKS🥳🎉
