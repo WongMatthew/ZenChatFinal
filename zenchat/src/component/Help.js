@@ -43,7 +43,7 @@ function Help() {
                     </div>
                     <div className='text-center'>
                         <Link to="/">
-                            <button className="bg-indigo-500 text-black py-3 px-6 rounded-full shadow-lg text-xl" style={{ minWidth: '150px', bgcolor: "#3A86FF"}}>
+                            <button className="bg-indigo-500 text-black py-3 px-6 rounded-full shadow-lg text-xl" style={{ minWidth: '150px', backgroundColor: "#3A86FF"}}>
                             Back
                             </button>
                         </Link>

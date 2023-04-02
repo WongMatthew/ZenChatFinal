@@ -59,7 +59,7 @@ function Landing() {
             </button>
           </Link>
         </div>
-        <div className="my-4" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '55px' }}>
+        <div className="my-4" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '85px' }}>
           <Link to="/help">
             <button className="bg-white text-black py-3 px-6 rounded-full shadow-lg flex items-center text-xs">
               How to Use ZenChat
