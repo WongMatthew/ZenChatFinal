@@ -30,24 +30,24 @@ function End() {
 
             <div className="max-w-screen-lg mx-auto pt-20 px-8 flex flex-col items-center justify-center text-center" style={{ left: '40%', top: '300px', marginTop: '300px' }}>
                 <div className="text-xl font-bold mb-3">Have feedback?</div>
-                <Link to="">
+                <Link to="/feedback">
                     <button className="bg-blue-500 text-white py-3 px-6 rounded-full shadow-lg flex items-center text-xl" style={{ minWidth: '150px', backgroundColor: "#3A86FF", marginTop: '10px'}}>
                         Submit Feedback
                     </button>
                 </Link>
             </div>
 
-            <div className="fixed bottom-24 left-1/2 transform -translate-x-1/2 " style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '150px' }}>
-                <Link to="/disclaimer">
-                    <button className="bg-white text-black py-3 px-6 rounded-full shadow-lg flex items-center text-xl">
-                    Start Session
+            <div className="fixed bottom-24 left-1/2 transform -translate-x-1/2 " style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '130px' }}>
+                <Link to="/">
+                    <button className="bg-white text-black py-3 px-6 rounded-full shadow-lg flex items-center text-2xl">
+                    Main Menu
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-2" viewBox="0 0 20 20" fill="currentColor">
                         <path fillRule="evenodd" d="M13.707 10l-4.147 4.146a.5.5 0 11-.708-.708L12.293 10l-3.44-3.438a.5.5 0 11.707-.707L13.707 10z" clipRule="evenodd" />
                     </svg>
                     </button>
                 </Link>
                 </div>
-                <div className="my-4" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '85px' }}>
+                <div className="my-4" style={{ position: 'absolute', left: '50%', transform: 'translate(-50%)', bottom: '65px' }}>
                 <Link to="/help">
                     <button className="bg-white text-black py-3 px-6 rounded-full shadow-lg flex items-center text-xs">
                     How to Use ZenChat

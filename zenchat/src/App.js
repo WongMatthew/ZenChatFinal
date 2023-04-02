@@ -12,6 +12,7 @@ import Test from './component/Test';
 import ChatDecatastrophizing from './component/ChatDecatastrophizing';
 import ChatUplifting from './component/ChatUplifting';
 import ChatPositiveReinforcement from './component/ChatPositiveReinforcement';
+import Feedback from './component/Feedback';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="ChatDecatastrophizing" element={<ChatDecatastrophizing />} />
           <Route path="ChatUplifting" element={<ChatUplifting />} />
           <Route path="ChatPositiveReinforcement" element={<ChatPositiveReinforcement />} />
+          <Route path="Feedback" element={<Feedback />} />
         </Routes>
     </BrowserRouter>
     </div>
