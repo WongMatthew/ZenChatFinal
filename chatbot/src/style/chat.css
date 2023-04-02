@@ -5,7 +5,128 @@
     background-color: gray;
     max-height: 100vh; 
     height: 100vh;
+
+    /* I’ve been struggling with something... */
+
+position: absolute;
+width: 277px;
+height: 90px;
+left: 109px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 35px;
+/* or 233% */
+
+color: #FFFFFF;
+
+
     
 
     
+}
+
+
+
+
+
+
+
+
+{/* Group 27 */
+
+position: absolute;
+width: 379.99px;
+height: 51px;
+left: 24px;
+top: 827px;
+
+
+
+/* chevron.right.circle.fill */
+
+position: absolute;
+width: 49.99px;
+height: 50px;
+left: 354px;
+top: 827px;
+
+
+
+/* Group */
+
+position: absolute;
+left: 82.71%;
+right: 5.61%;
+top: 89.31%;
+bottom: 5.29%;
+
+
+
+/* Vector */
+
+position: absolute;
+width: 49.99px;
+height: 50px;
+left: calc(50% - 49.99px/2 + 164.99px);
+top: calc(50% - 50px/2 + 389px);
+
+background: #FFFFFF;
+opacity: 0;
+
+
+/* Vector */
+
+position: absolute;
+width: 49.99px;
+height: 49.98px;
+left: calc(50% - 49.99px/2 + 164.99px);
+top: calc(50% - 49.98px/2 + 388.99px);
+
+background: #3A86FF;
+
+
+/* Vector */
+
+position: absolute;
+width: 15.04px;
+height: 25.8px;
+left: calc(50% - 15.04px/2 + 166.17px);
+top: calc(50% - 25.8px/2 + 389px);
+
+background: #FFFFFF;
+
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 314px;
+height: 51px;
+left: 24px;
+top: 827px;
+
+background: #FFFFFF;
+border-radius: 100px;
+
+
+/* Hey there, how can I help? */
+
+position: absolute;
+width: 277px;
+height: 16px;
+left: 42px;
+top: 844px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 16px;
+/* identical to box height, or 107% */
+
+color: #9D9D9D;
+
 }
